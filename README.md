@@ -1,1 +1,1 @@
-this repo contains my alk college lab/class codes 
+this repo contains my all college lab/class codes 
