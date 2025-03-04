@@ -6,10 +6,10 @@ class Student {
   // instance variables
   String name;
   int age;
-
+ 
   // default constructor
   Student() {
-    name = "Unknown";
+    name = null;
     age = 0;
   }
 
@@ -34,7 +34,7 @@ class Student {
   public static void main(String[] args) {
     // Creating object using default constructor
     Student s1 = new Student();
-    System.out.println("Student 1 (Default Constructor):");
+    System.out.println("Student 1 (Default Constructor):"); 
     s1.display();
     
     // Creating object using parameterized constructor
