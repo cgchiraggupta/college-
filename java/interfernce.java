@@ -25,3 +25,12 @@ class raju implements client
         System.out.println("salary=" + sal);
     }
 }
+
+// Add main class to run the program
+public class interfernce {
+    public static void main(String[] args) {
+        raju r = new raju();
+        r.input();
+        r.output();
+    }
+} 
